@@ -1,0 +1,25 @@
+{
+  "name": "kani",
+  "version": "0.0.1",
+  "description": "Kani Discord bot Project",
+  "main": "kani.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanc",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "chalk": "^2.3.1",
+    "discord.js": "^11.3.0",
+    "eslint": "^4.18.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.20.1",
+    "ms": "^2.1.1",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6",
+    "return-deep-diff": "^0.2.9",
+    "windows-build-tools": "^2.2.1",
+    "ytdl-core": "^0.20.2"
+  }
+}
