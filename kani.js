@@ -6,7 +6,7 @@ const moment = require("moment");
 const settings = require('./settings.json');
 const token = settings.token;
 require('./util/eventLoader.js')(client);
-// test
+
 const log = (message) => {
     console.log(`[${moment().format("YYYY-MM-DD HH:mm:ss")}] ${message}`);
 };
