@@ -17,6 +17,7 @@
     "moment": "^2.20.1",
     "ms": "^2.1.1",
     "node-opus": "^0.2.7",
+    "nodemon": "^1.17.1",
     "opusscript": "0.0.6",
     "return-deep-diff": "^0.2.9",
     "windows-build-tools": "^2.2.1",
