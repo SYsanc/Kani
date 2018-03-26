@@ -1,0 +1,17 @@
+exports.run = (client, message, args = []) => {
+
+    };
+    
+    exports.conf = {
+        enabled: true,
+        guildOnly: false,
+        aliases: ['핑'],
+        permLevel: 0
+    };
+    
+    exports.help = {
+        name: "queue",
+        description: "Song add to queue.",
+        usage: "queue [songs(url)]"
+        };
+        */
