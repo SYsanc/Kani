@@ -1,11 +1,11 @@
 exports.run = (client, message, args = []) => {
-
+        message.channel.send("error");
     };
     
     exports.conf = {
         enabled: true,
         guildOnly: false,
-        aliases: ['핑'],
+        aliases: ['q'],
         permLevel: 0
     };
     
@@ -14,4 +14,4 @@ exports.run = (client, message, args = []) => {
         description: "Song add to queue.",
         usage: "queue [songs(url)]"
         };
-        */
+        
