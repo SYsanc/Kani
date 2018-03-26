@@ -1,4 +1,6 @@
 const ytdl = require('ytdl-core');
+const queue = new Map();
+
 exports.run = async (client, message, args) => {
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) return message.channel.send('I\'m sorry but you need to be in a voice channel to play music!');
@@ -31,7 +33,7 @@ exports.run = async (client, message, args) => {
 exports.conf = {
     enabled: true,
     guildOnly: false,
-    aliases: [],
+    aliases: ['p'],
     permLevel: 0
 };
 
